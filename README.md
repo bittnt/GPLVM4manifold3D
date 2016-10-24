@@ -1,5 +1,7 @@
 # CassiopeiaML3D for constructing manifold for 3D CAD models
 Our work allows computers to construct a manifold to model the 3D CAD models. Once the model is trained, we can sample the model from manifold.
+![Manifold for chairs and toilets](http://www.robots.ox.ac.uk/~szheng/gcpr2015/gplvm_all_toilet_chair.jpg)
+
 
 [![License Oxford ISIS](http://innovation.ox.ac.uk/wp-content/uploads/2014/08/home-isis-tech-transfer.jpg)](https://github.com/bittnt/GPLVM4manifold3D/blob/master/LICENSE)
 
