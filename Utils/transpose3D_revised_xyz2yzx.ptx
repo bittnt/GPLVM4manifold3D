@@ -1,0 +1,170 @@
+	.version 1.4
+	.target sm_10, map_f64_to_f32
+	// compiled with ./../open64/lib//be.exe
+	// nvopencc 4.0 built on 2011-05-13
+
+	//-----------------------------------------------------------
+	// Compiling C:/Users/ViPrAd/AppData/Local/Temp/tmpxft_00001034_00000000-11_transpose3D_revised_xyz2yzx.cpp3.i (C:/Users/ViPrAd/AppData/Local/Temp/ccBI#.a02976)
+	//-----------------------------------------------------------
+
+	//-----------------------------------------------------------
+	// Options:
+	//-----------------------------------------------------------
+	//  Target:ptx, ISA:sm_10, Endian:little, Pointer Size:64
+	//  -O3	(Optimization level)
+	//  -g0	(Debug level)
+	//  -m2	(Report advisories)
+	//-----------------------------------------------------------
+
+	.file	1	"C:/Users/ViPrAd/AppData/Local/Temp/tmpxft_00001034_00000000-10_transpose3D_revised_xyz2yzx.cudafe2.gpu"
+	.file	2	"c:\program files (x86)\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h"
+	.file	3	"device_runtime.h"
+	.file	4	"include\host_defines.h"
+	.file	5	"include\builtin_types.h"
+	.file	6	"c:\cuda\v4.0\include\device_types.h"
+	.file	7	"c:\cuda\v4.0\include\driver_types.h"
+	.file	8	"c:\cuda\v4.0\include\surface_types.h"
+	.file	9	"c:\cuda\v4.0\include\texture_types.h"
+	.file	10	"c:\cuda\v4.0\include\vector_types.h"
+	.file	11	"c:\cuda\v4.0\include\builtin_types.h"
+	.file	12	"c:\cuda\v4.0\include\host_defines.h"
+	.file	13	"include\device_launch_parameters.h"
+	.file	14	"c:\cuda\v4.0\include\crt\storage_class.h"
+	.file	15	"c:/Program Files (x86)/Microsoft Visual Studio 10.0/VC/bin/x86_amd64/../../../VC/INCLUDE\time.h"
+	.file	16	"C:/Temp/transpose3D_revised_xyz2yzx.cu"
+	.file	17	"include\common_functions.h"
+	.file	18	"c:\cuda\v4.0\include\math_functions.h"
+	.file	19	"c:\cuda\v4.0\include\math_constants.h"
+	.file	20	"c:\cuda\v4.0\include\device_functions.h"
+	.file	21	"c:\cuda\v4.0\include\sm_11_atomic_functions.h"
+	.file	22	"c:\cuda\v4.0\include\sm_12_atomic_functions.h"
+	.file	23	"c:\cuda\v4.0\include\sm_13_double_functions.h"
+	.file	24	"c:\cuda\v4.0\include\sm_20_atomic_functions.h"
+	.file	25	"c:\cuda\v4.0\include\sm_20_intrinsics.h"
+	.file	26	"c:\cuda\v4.0\include\surface_functions.h"
+	.file	27	"c:\cuda\v4.0\include\texture_fetch_functions.h"
+	.file	28	"c:\cuda\v4.0\include\math_functions_dbl_ptx1.h"
+
+
+	.entry _Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj (
+		.param .u64 __cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_odata,
+		.param .u64 __cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_idata,
+		.param .u32 __cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_n1,
+		.param .u32 __cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_n2,
+		.param .u32 __cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_n3,
+		.param .u32 __cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_Gx,
+		.param .u32 __cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_Gz,
+		.param .f32 __cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_one_over_Gx,
+		.param .f32 __cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_one_over_Gz,
+		.param .u32 __cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_k2)
+	{
+	.reg .u32 %r<49>;
+	.reg .u64 %rd<23>;
+	.reg .f32 %f<12>;
+	.reg .pred %p<5>;
+	.shared .align 4 .b8 __cuda___cuda_local_var_88686_34_non_const_block48[1088];
+	.loc	16	8	0
+$LDWbegin__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj:
+	cvt.u32.u16 	%r1, %ctaid.x;
+	cvt.rz.f32.u32 	%f1, %r1;
+	cvt.u32.u16 	%r2, %ctaid.y;
+	cvt.rz.f32.u32 	%f2, %r2;
+	ld.param.f32 	%f3, [__cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_one_over_Gz];
+	mul.f32 	%f4, %f3, %f1;
+	ld.param.f32 	%f5, [__cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_one_over_Gx];
+	mul.f32 	%f6, %f5, %f2;
+	cvt.rmi.f32.f32 	%f7, %f4;
+	cvt.rmi.f32.f32 	%f8, %f6;
+	cvt.rzi.u32.f32 	%r3, %f7;
+	cvt.rzi.u32.f32 	%r4, %f8;
+	ld.param.u32 	%r5, [__cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_Gz];
+	mul.lo.u32 	%r6, %r5, %r3;
+	ld.param.u32 	%r7, [__cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_Gx];
+	mul.lo.u32 	%r8, %r7, %r4;
+	ld.param.u32 	%r9, [__cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_k2];
+	mul.lo.u32 	%r10, %r9, %r4;
+	sub.u32 	%r11, %r1, %r6;
+	sub.u32 	%r12, %r2, %r8;
+	add.u32 	%r13, %r3, %r10;
+	mul.lo.u32 	%r14, %r11, 16;
+	mul.lo.u32 	%r15, %r12, 16;
+	ld.param.u32 	%r16, [__cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_n2];
+	setp.lt.u32 	%p1, %r13, %r16;
+	cvt.u32.u16 	%r17, %tid.x;
+	add.u32 	%r18, %r14, %r17;
+	cvt.u32.u16 	%r19, %tid.y;
+	add.u32 	%r20, %r15, %r19;
+	selp.s32 	%r21, 1, 0, %p1;
+	ld.param.u32 	%r22, [__cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_n1];
+	ld.param.u32 	%r23, [__cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_n3];
+	set.lt.u32.u32 	%r24, %r18, %r23;
+	neg.s32 	%r25, %r24;
+	set.lt.u32.u32 	%r26, %r20, %r22;
+	neg.s32 	%r27, %r26;
+	and.b32 	%r28, %r21, %r27;
+	and.b32 	%r29, %r25, %r28;
+	mov.u32 	%r30, 0;
+	setp.eq.s32 	%p2, %r29, %r30;
+	@%p2 bra 	$Lt_0_2818;
+	.loc	16	34	0
+	mov.u64 	%rd1, __cuda___cuda_local_var_88686_34_non_const_block48;
+	ld.param.u64 	%rd2, [__cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_idata];
+	.loc	16	8	0
+	ld.param.u32 	%r16, [__cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_n2];
+	.loc	16	34	0
+	mul.lo.u32 	%r31, %r20, %r16;
+	add.u32 	%r32, %r13, %r31;
+	.loc	16	8	0
+	ld.param.u32 	%r23, [__cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_n3];
+	.loc	16	34	0
+	mul.lo.u32 	%r33, %r23, %r32;
+	add.u32 	%r34, %r18, %r33;
+	cvt.u64.u32 	%rd3, %r34;
+	mul.wide.u32 	%rd4, %r34, 4;
+	add.u64 	%rd5, %rd2, %rd4;
+	ld.global.f32 	%f9, [%rd5+0];
+	cvt.u64.u32 	%rd6, %r17;
+	cvt.u64.u32 	%rd7, %r19;
+	mul.wide.u32 	%rd8, %r19, 17;
+	add.u64 	%rd9, %rd6, %rd8;
+	mul.lo.u64 	%rd10, %rd9, 4;
+	add.u64 	%rd11, %rd1, %rd10;
+	st.shared.f32 	[%rd11+0], %f9;
+$Lt_0_2818:
+	mov.u64 	%rd1, __cuda___cuda_local_var_88686_34_non_const_block48;
+	.loc	16	36	0
+	bar.sync 	0;
+	add.u32 	%r35, %r14, %r19;
+	add.u32 	%r36, %r15, %r17;
+	set.lt.u32.u32 	%r37, %r35, %r23;
+	neg.s32 	%r38, %r37;
+	set.lt.u32.u32 	%r39, %r36, %r22;
+	neg.s32 	%r40, %r39;
+	and.b32 	%r41, %r21, %r40;
+	and.b32 	%r42, %r38, %r41;
+	mov.u32 	%r43, 0;
+	setp.eq.s32 	%p3, %r42, %r43;
+	@%p3 bra 	$Lt_0_3330;
+	.loc	16	43	0
+	cvt.u64.u32 	%rd12, %r19;
+	cvt.u64.u32 	%rd13, %r17;
+	mul.wide.u32 	%rd14, %r17, 17;
+	add.u64 	%rd15, %rd12, %rd14;
+	mul.lo.u64 	%rd16, %rd15, 4;
+	add.u64 	%rd17, %rd1, %rd16;
+	ld.shared.f32 	%f10, [%rd17+0];
+	ld.param.u64 	%rd18, [__cudaparm__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj_odata];
+	mul.lo.u32 	%r44, %r13, %r23;
+	add.u32 	%r45, %r35, %r44;
+	mul.lo.u32 	%r46, %r22, %r45;
+	add.u32 	%r47, %r36, %r46;
+	cvt.u64.u32 	%rd19, %r47;
+	mul.wide.u32 	%rd20, %r47, 4;
+	add.u64 	%rd21, %rd18, %rd20;
+	st.global.f32 	[%rd21+0], %f10;
+$Lt_0_3330:
+	.loc	16	46	0
+	exit;
+$LDWend__Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj:
+	} // _Z27transpose3D_revised_xyz2yzxPfS_jjjjjffj
+

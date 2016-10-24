@@ -1,0 +1,67 @@
+File Version listing for gp 0.134
+gpPosteriorGradMeanVar.m  CVS version 1.2 SVN version 178
+gpCovGradsTest.m  CVS version 1.1 SVN version 178
+gpSubspaceOut.m  SVN version 105
+gpUpdateKernels.m  CVS version 1.3 SVN version 178
+gpPointLogLikelihood.m  CVS version 1.1 SVN version 3
+demGpSample.m  SVN version 118
+gpPosteriorMeanCovarTest.m  CVS version 1.1 SVN version 3
+gpToolboxes.m  CVS version 1.4 SVN version 536
+demGpCovFuncSample.m  SVN version 327
+gpObjective.m  CVS version 1.1 SVN version 3
+demSilhouetteGp1.m  SVN version 536
+gpComputeM.m  CVS version 1.2 SVN version 3
+gpComputeAlpha.m  CVS version 1.1 SVN version 178
+gpReadFromFile.m  SVN version 3
+demInterpolation.m  SVN version 118
+gpPosteriorVar.m  SVN version 503
+demSpgp1dGp4.m  SVN version 536
+gpScaleBiasGradient.m  CVS version 1.1 SVN version 3
+demSilhouettePlot.m  SVN version 327
+gpSubspaceExtractParam.m  SVN version 105
+demSpgp1dPlot.m  CVS version 1.1 SVN version 536
+demOptimiseGp.m  SVN version 118
+gpSubspaceCreate.m  SVN version 105
+demOptimiseGpTutorial.m  SVN version 327
+gpPosteriorSample.m  SVN version 133
+demSilhouettePlotTrue.m  SVN version 327
+demStickGp1.m  SVN version 327
+gpUpdateAD.m  CVS version 1.2 SVN version 498
+gpObjectiveGradient.m  CVS version 1.1 SVN version 3
+gpGradient.m  CVS version 1.1 SVN version 3
+gpExpandParam.m  CVS version 1.3 SVN version 178
+readme.txt  CVS version 1.3
+gpWriteToFile.m  SVN version 3
+gpOut.m  CVS version 1.1 SVN version 3
+demSpgp1dGp5.m  SVN version 536
+demSilhouetteAverage.m  SVN version 327
+demRegression.m  SVN version 118
+gpLogLikelihood.m  CVS version 1.4 SVN version 498
+gpLoadResult.m  SVN version 536
+gpSample.m  SVN version 118
+demSilhouetteGp2.m  SVN version 536
+gpWriteResult.m  SVN version 536
+gpDataIndices.m  CVS version 1.1 SVN version 3
+gpLogLikeGradients.m  CVS version 1.5 SVN version 498
+gpCovGrads.m  CVS version 1.1 SVN version 180
+gpDeconstruct.m  SVN version 536
+gpCreate.m  CVS version 1.5 SVN version 536
+gpSubspaceExpandParam.m  SVN version 105
+gpExtractParam.m  CVS version 1.4 SVN version 178
+gpSubspaceOptimise.m  SVN version 105
+demSpgp1dGp3.m  SVN version 536
+gpOptions.m  CVS version 1.4 SVN version 498
+gpReconstruct.m  SVN version 536
+gpDisplay.m  CVS version 1.1 SVN version 178
+gpTest.m  CVS version 1.3 SVN version 178
+demGpCov2D.m  SVN version 118
+gpPosteriorGradMeanCovar.m  CVS version 1.2 SVN version 178
+demSilhouetteLinear1.m  SVN version 327
+gpPosteriorMeanCovar.m  CVS version 1.3 SVN version 178
+gpBlockIndices.m  CVS version 1.1 SVN version 3
+demSpgp1dGp2.m  SVN version 536
+gpReadFromFID.m  SVN version 178
+demSpgp1dGp1.m  SVN version 536
+gpPosteriorMeanVar.m  CVS version 1.3 SVN version 178
+gpMeanFunctionGradient.m  CVS version 1.1 SVN version 178
+gpOptimise.m  CVS version 1.2 SVN version 82

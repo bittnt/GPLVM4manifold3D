@@ -1,0 +1,12 @@
+function handle = vectorMaxVisualise(vals, params)
+[~,ii] = max(vals);
+efdHcount = params{1};
+nopoints = params{2};
+efds = params{3};
+img = zeros(480, 640);
+fa = reshape(squeeze(efds(ii,:)), 4, efdHcount);
+ufa = rEfourier(fa, efdHcount, nopoints);
+img = cpDrawCFull([ufa(:,1) ufa(:,2)], img);
+% img = imfill(img,'holes');
+% img = cpDrawCFull([ufa(:,2) ufa(:,1)]);
+handle = imshow(img);

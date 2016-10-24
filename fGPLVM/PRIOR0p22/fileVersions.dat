@@ -1,0 +1,44 @@
+File Version listing for prior 0.22
+gaussianPriorExpandParam.m  CVS version 1.4 SVN version 29
+normuniPriorExtractParam.m  CVS version 1.1 SVN version 29
+laplacePriorExtractParam.m  CVS version 1.1 SVN version 29
+priorToolboxes.m  SVN version 325
+gammaPriorGradient.m  CVS version 1.3 SVN version 29
+priorLogProb.m  CVS version 1.4 SVN version 29
+normuniPriorExpandParam.m  CVS version 1.1 SVN version 29
+gaussianPriorExtractParam.m  CVS version 1.3 SVN version 29
+priorParamInit.m  CVS version 1.3 SVN version 29
+gaussianPriorLogProb.m  CVS version 1.4 SVN version 29
+gammaPriorParamInit.m  CVS version 1.3 SVN version 29
+normuniPriorLogProb.m  CVS version 1.2 SVN version 29
+wangPriorLogProb.m  CVS version 1.1 SVN version 29
+laplacePriorParamInit.m  CVS version 1.2 SVN version 29
+normuniPriorParamInit.m  CVS version 1.2 SVN version 29
+laplacePriorExpandParam.m  CVS version 1.1 SVN version 29
+gammaPriorExtractParam.m  CVS version 1.2 SVN version 29
+wangPriorExtractParam.m  CVS version 1.1 SVN version 29
+readme.txt  CVS version 1.2 SVN version 323
+priorCreate.m  CVS version 1.2 SVN version 29
+normuniPriorGradient.m  CVS version 1.1 SVN version 29
+laplacePriorLogProb.m  CVS version 1.1 SVN version 29
+priorGradient.m  CVS version 1.5 SVN version 29
+laplacePriorGradient.m  CVS version 1.1 SVN version 29
+wangPriorParamInit.m  CVS version 1.2 SVN version 29
+gammaPriorLogProb.m  CVS version 1.2 SVN version 29
+priorWriteToFID.m  SVN version 326
+priorWriteParamsToFID.m  SVN version 326
+gaussianPriorGradient.m  CVS version 1.3 SVN version 29
+invgammaPriorExtractParam.m  CVS version 1.2 SVN version 29
+wangPriorExpandParam.m  CVS version 1.1 SVN version 29
+invgammaPriorParamInit.m  CVS version 1.3 SVN version 29
+priorTest.m  CVS version 1.3 SVN version 29
+gammaPriorExpandParam.m  CVS version 1.2 SVN version 29
+gaussianPriorParamInit.m  CVS version 1.4 SVN version 29
+wangPriorGradient.m  CVS version 1.1 SVN version 29
+priorExpandParam.m  CVS version 1.5 SVN version 29
+priorReadFromFID.m  CVS version 1.2 SVN version 322
+invgammaPriorExpandParam.m  CVS version 1.2 SVN version 29
+priorReadParamsFromFID.m  CVS version 1.2 SVN version 322
+priorExtractParam.m  CVS version 1.5 SVN version 29
+invgammaPriorGradient.m  CVS version 1.2 SVN version 29
+invgammaPriorLogProb.m  CVS version 1.2 SVN version 29

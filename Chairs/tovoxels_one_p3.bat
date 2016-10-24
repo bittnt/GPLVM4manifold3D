@@ -1,0 +1,1 @@
+binvox -d 124 -cb models\off\p3\%1

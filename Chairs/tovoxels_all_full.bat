@@ -1,0 +1,1 @@
+for /f %%a IN ('dir /b models\off\full\*.off') do call tovoxels_one_full.bat %%a

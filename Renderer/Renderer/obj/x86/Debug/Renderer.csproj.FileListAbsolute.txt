@@ -1,0 +1,13 @@
+C:\Projects\CassiopeiaML3D\Renderer\Renderer\bin\Debug\Renderer.exe
+C:\Projects\CassiopeiaML3D\Renderer\Renderer\bin\Debug\Renderer.pdb
+C:\Projects\CassiopeiaML3D\Renderer\Renderer\bin\Debug\Renderer.Lib.dll
+C:\Projects\CassiopeiaML3D\Renderer\Renderer\bin\Debug\OpenTK.dll
+C:\Projects\CassiopeiaML3D\Renderer\Renderer\bin\Debug\OpenTK.GLControl.dll
+C:\Projects\CassiopeiaML3D\Renderer\Renderer\bin\Debug\OpenTK.Compatibility.dll
+C:\Projects\CassiopeiaML3D\Renderer\Renderer\bin\Debug\Renderer.Lib.pdb
+C:\Projects\CassiopeiaML3D\Renderer\Renderer\bin\Debug\OpenTK.xml
+C:\Projects\CassiopeiaML3D\Renderer\Renderer\bin\Debug\OpenTK.GLControl.xml
+C:\Projects\CassiopeiaML3D\Renderer\Renderer\bin\Debug\OpenTK.Compatibility.xml
+C:\Projects\CassiopeiaML3D\Renderer\Renderer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\CassiopeiaML3D\Renderer\Renderer\obj\x86\Debug\Renderer.exe
+C:\Projects\CassiopeiaML3D\Renderer\Renderer\obj\x86\Debug\Renderer.pdb
